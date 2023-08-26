@@ -1,0 +1,56 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+.page{ /*caixa maior que comporta toda a página*/
+  width: 1000px; /* delimitei o tamanho da minha page para poder centralizar ela ao centro com o margin auto. */
+  margin: 65px auto;
+
+
+}
+
+header{
+  display: flex;
+  align-items: center;
+  border: 1px solid blue;
+  justify-content: space-between;
+}
+
+#conteudoPrincipal > p {
+  width: 50vh;
+  color: rgb(54, 54, 54);
+}
+
+button{ 
+  width: 150px;
+  height: 50px;
+  background-color: rgb(48, 184, 48);
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(214, 170, 255);
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+main{
+  display: flex;
+}
+
+footer{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(96, 96, 96);
+  height: 50px;
+
+}
